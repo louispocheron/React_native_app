@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 
 import LoginScreen from './src/screens/auth/LoginScreen';
+import RegisterScreen from './src/screens/auth/RegisterScreen';
 // import Navigation from './src/navigation';
 
 
@@ -14,7 +15,7 @@ const App = () => {
   return(
     // <Navigation />
 
-    <LoginScreen />
+    <RegisterScreen />
   )
 }
 
